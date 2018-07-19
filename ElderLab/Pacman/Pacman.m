@@ -20,7 +20,7 @@ function [returnAnswers, humanResponses] = Pacman(numRepBlock, timing)
   %flipInterval = Screen('GetFlipInterval', window);
   topPriorityLevel = MaxPriority(window);
   Priority(topPriorityLevel);
-  inter = 0.2;
+  inter = 0.1;
   
   %%%%% Experiment Stuff %%%%%%
   ListenChar(2);
